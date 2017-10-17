@@ -1,0 +1,89 @@
+/* Imagen de Logo de Bara de Mennu  */
+.blog-img {
+  width: 150px;
+  margin-top: 0px;
+}
+/*Color de la Barra de Menu  */
+.fondo{
+ background-color:#008CBA;
+ width:100%;
+}
+/* Redes Sociales  */  
+.redes-sociales {
+  margin-top: 61px;
+}
+
+.navbar-bar {
+  background-color: #008CBA; 
+  text-align: center;
+  font-size: 15px;
+  width: 248px !important;
+  /*width: 248px;*/
+}
+.navbar-header{
+margin-top: 10px;
+
+}
+
+.img-social {
+  width: 30px;
+  height: 30px;
+}
+
+/* Primera Imagen de Blog */
+.img-blog {
+  height: 260px;
+  padding: 6px;
+  margin-top: 12px;
+  margin-right: 12px;
+  margin-left: 10px;
+  float: right;
+   border-radius: 0px !important;
+  background-color: #ffcc99;
+}
+
+/*Segunda Imagen de Blog  */
+.img-blog1 {
+  height: 260px;
+  padding: 6px;
+  margin-top: 22px;
+  float: left;
+   border-radius: 0px !important;
+  background-color: #ffcc99;
+  margin-left: 12px;
+  margin-right: 10px;
+}
+.blog-row {
+
+  min-height: 380px;;
+  padding-left: 35px;
+  padding-right: 15px;
+}
+ /* Contenido del Blog  Section*/
+.blog-content{
+  background-color: #f0f0f5;
+  margin-top:10px;
+  order: 1
+}
+
+/*Contenido de Blog - Aside  */
+.blog-aside{
+ background-color: #f0f0f5;
+ margin-left: 12px;
+ width:500px;
+ margin-top: 10px;
+ height: 700px;
+}
+/*Blog Aside Search  */
+.blog-search{
+  background-color: #e0e0eb;
+  margin-top:10px;
+  margin-left: 12px;
+  width:450px;
+}
+
+.blog-left{
+text-align:justify;
+margin-right: 15px;
+margin-left: 15px;
+}

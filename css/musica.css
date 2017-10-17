@@ -1,37 +1,131 @@
+/*altura y ancho de la pagina  */
 .blog-body {
   width: 100%;
   height: 100%;
 }
 
+/* Color de fondo en pagina*/
 .navbar-inverse {
   background-color: rgba(50, 100, 150,2);
   min-height: 10%;
   border: none;
 }
 
+/* Logo de la superior izq pagina*/
 .logo-img {
   width: 100px;
 }
 
+/* Navegaion de la pagina*/
 .container-fluid {
   margin-top: 73px;
 }
 
+/* Redes Sociales de Menu pagina*/
 .redes-sociales {
   margin-top: 30px;
   float: right;
 }
 
+/* Imagenes de  redes Sociales de lapagina*/
 .img-social {
   width: 40px;
   height: 40px;
 }
+
+/* itulo de  la pagina*/
 .titulo-blog {
   text-align: center;
   min-height: 35px;
 }
 
+/*  Barra de texto de la pagina*/
 .barra-text {
   padding-top: 20px;
   background-color: rgba(50, 100, 150,2);
+}
+
+/* Contenido de la pagina*/
+.blog-content{  
+  background-color: #f0f0f5;
+  margin-top:10px;
+} 
+
+/*Contenido de Blog - Aside  */
+.blog-aside{
+ background-color: #f0f0f5;
+ margin-left: 10px;
+ margin-top: 0px;
+ height: 850px;
+ 
+}
+/*Blog Aside Search  */
+.blog-search{
+  background-color: #e0e0eb;
+  margin-top:10px;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.blog-left{
+text-align:justify;
+margin-right: 0px;
+margin-left: 0px;
+}
+
+ .blog-row {
+  background: rgba(242, 242, 242, 2);
+  min-height: 380px;;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+.blog-title {
+  color: black;
+}
+
+ .img-blog {
+    height: 233px;
+    padding: 6px;
+    margin-top: 22px;
+    float:right;
+    background-color:rgba(50, 100, 150,2);
+
+  }
+
+
+/* Resolucion a maximo 700px de la  pagina*/
+@media (max-width: 770px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .titulo-blog {
+    font-size: 25px;
+  }
+
+  .right-column {
+    display: none;
+  }
+
+  
+
+  .blog-row {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 400px;
+  }
+
+  .container-fluid{
+    margin-top: 60px;
+  }
+
+  .img-blog {
+    height: 233px;
+    padding: 6px;
+    margin-top: 22px;
+  }
 }
